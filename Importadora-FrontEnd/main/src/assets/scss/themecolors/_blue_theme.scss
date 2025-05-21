@@ -1,0 +1,9 @@
+html .blue_theme {
+  //colores primarios para la base
+  --mat-sys-primary: rgb(93, 135, 255);
+  --mat-sys-primary-fixed-dim: rgb(93, 135, 255, 0.15);
+  --mat-sys-secondary: rgb(68, 183, 247);
+  --mat-sys-secondary-fixed-dim: rgb(68, 183, 247, 0.15);
+//  Degradado personalizado
+  --custom-gradient-primary: linear-gradient(to right, #00adef, #3871c1);
+}

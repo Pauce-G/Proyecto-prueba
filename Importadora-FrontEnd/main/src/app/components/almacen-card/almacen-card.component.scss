@@ -1,0 +1,28 @@
+.cardWithShadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.cardWithShadow:hover {
+  transform: scale(1.02);
+}
+
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.content-center {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}

@@ -1,0 +1,33 @@
+@use "../variables" as *;
+
+html .topbar {
+  position: relative;
+  top: 0;
+  z-index: 9;
+  height: $header-height;
+  background-image: linear-gradient(to right, #00adef, #3871c1);
+}
+
+.topbar-dd {
+  min-width: 220px !important;
+}
+
+.upgrade-bg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.profile-dd {
+  margin-top: -5px;
+  margin-left: -5px;
+}
+
+.icon-white {
+  color: white;
+}
